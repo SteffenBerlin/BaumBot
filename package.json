@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/SteffenBerlin/BaumBot#readme",
   "dependencies": {
+    "tinderjs": "^1.0.8"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
