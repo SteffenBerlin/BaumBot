@@ -9,8 +9,8 @@ var client = new tinder.TinderClient();
 var fb_userToken = 
 
 client.authorize(
-  <fb user token>,
-  <fb user id>,
+  fb_userToken,
+  fb_ID,
   function() {
     client.getRecommendations(10, function(error, data){
       console.log(data.results);
