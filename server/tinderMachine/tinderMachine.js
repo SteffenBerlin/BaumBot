@@ -12,8 +12,9 @@ client.authorize(
   fb_userToken,
   fb_ID,
   function() {
-    client.getRecommendations(10, function(error, data){
-      console.log(data.results);
-    });
+    console.log(client.getDefaults());
   }
 );
+ 
+
+ //switch npm package to: https://www.npmjs.com/package/tinder-api-super ??
