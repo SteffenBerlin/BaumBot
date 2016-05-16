@@ -1,4 +1,4 @@
-require keys from './config/apikeys.js';
+var keys = require('../config/apikeys');
 
 var fb_userToken = keys.fb_userToken;
 var fb_ID = keys.fb_ID;
@@ -15,5 +15,5 @@ client.authorize(
     client.getRecommendations(10, function(error, data){
       console.log(data.results);
     });
-  });
-});
+  }
+);
